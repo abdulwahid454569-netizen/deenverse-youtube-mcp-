@@ -1,0 +1,15 @@
+
+{
+  "name": "deenverse-youtube-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "agents": "^0.20.0",
+    "@modelcontextprotocol/server": "2.3.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "wrangler": "^4.160.1"
+  }
+}
