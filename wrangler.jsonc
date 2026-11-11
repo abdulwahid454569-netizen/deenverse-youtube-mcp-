@@ -1,7 +1,7 @@
-
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "deenverse-youtube-mcp",
   "main": "src/index.ts",
-  "compatibility_date": "2026-11-11"
+  "compatibility_date": "2026-11-11",
+  "compatibility_flags": ["nodejs_compat"]
 }
