@@ -4,10 +4,17 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
   "dependencies": {
-    "agents": "^0.20.0",
+    "@cloudflare/workers-oauth-provider": "^1.2.4",
     "@modelcontextprotocol/server": "2.3.1",
-    "zod": "^4.1.12"
+    "agents": "^0.29.0",
+    "hono": "^4.12.27",
+    "just-pick": "^4.2.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "wrangler": "^4.160.1"
